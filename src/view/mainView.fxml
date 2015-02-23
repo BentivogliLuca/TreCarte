@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="255.0" prefWidth="342.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="control.MainController">
+    <children>
+        <Button fx:id="btn0" defaultButton="true" layoutX="57.0" layoutY="36.0" onAction="#handleBtn0Action" prefHeight="109.0" prefWidth="62.0" />
+      <Button fx:id="btn1" defaultButton="true" layoutX="142.0" layoutY="36.0" onAction="#handleBtn1Action" prefHeight="109.0" prefWidth="62.0" />
+      <Button fx:id="btn2" defaultButton="true" layoutX="224.0" layoutY="36.0" onAction="#handleBtn2Action" prefHeight="109.0" prefWidth="62.0" />
+      <Button cancelButton="true" layoutX="286.0" layoutY="208.0" mnemonicParsing="false" onAction="#handleBtnExitAction" text="Exit" />
+      <Button fx:id="btnPlay" layoutX="139.0" layoutY="158.0" mnemonicParsing="false" onAction="#handleBtnPlayAction" text="Try again" />
+      <Label layoutX="23.0" layoutY="200.0" text="Partite vinte:" />
+      <Label layoutX="23.0" layoutY="212.0" text="Partite perse:" />
+      <Label layoutX="23.0" layoutY="225.0" text="\% vittoria:" />
+      <Label fx:id="lblPercentage" layoutX="76.0" layoutY="225.0" prefHeight="17.0" prefWidth="130.0" />
+      <Label fx:id="lblLost" layoutX="93.0" layoutY="212.0" prefHeight="17.0" prefWidth="130.0" />
+      <Label fx:id="lblWin" layoutX="93.0" layoutY="200.0" prefHeight="17.0" prefWidth="130.0" />
+    </children>
+</AnchorPane>
